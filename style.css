@@ -1,6 +1,8 @@
 .title {
   text-align: center;
   color: #ed8796;
+  justify-content: center;
+  align-items: center;
 }
 
 .who-head {
@@ -61,6 +63,9 @@ body {
   text-align: center;
   background-color: #24273a;
   color: #cad3f5;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 h2 {
@@ -68,7 +73,11 @@ h2 {
 }
 
 table {
-  width: 50%;
+  width: 100%;
+  min-width: 300px;
+  max-width: 600px;
+  margin: 0 auto;
+  justify-self: center;
   background-color: #6e738d;
   border: 3px solid #6e738d;
 }
@@ -80,11 +89,8 @@ td {
 footer {
   background-color: #494d64;
   box-shadow: 0 50vh 0 50vh #494d64;
-}
-
-footer hr {
-  border: 0.5px solid #8087a2;
-  margin: 30px -7px 0px;
+  border-top: 1px solid #8087a2;
+  width: 100%;
 }
 
 a:link {
