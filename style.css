@@ -28,7 +28,7 @@
   max-height: 75vh;
   max-width: 75vw;
   aspect-ratio: 1 / 1;
-  margin: 0 auto;
+  align-self: center;
 }
 
 .accomplishments {
@@ -96,7 +96,7 @@ table {
   width: 90vw;
   min-width: 60px;
   max-width: 600px;
-  margin: 0 auto;
+  align-self: center;
   background-color: #6e738d;
   border: 3px solid #6e738d;
 }
